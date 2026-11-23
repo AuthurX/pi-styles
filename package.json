@@ -1,0 +1,43 @@
+{
+  "name": "pi-styles",
+  "version": "0.1.0",
+  "description": "Pi 输出风格：兼容 Claude Code 存量风格 + 工具策略护栏 + 从历史会话蒸馏新风格",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "files": [
+    "src",
+    "styles",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuthurX/pi-styles.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.0.0",
+    "@earendil-works/pi-ai": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.5.2",
+    "@earendil-works/pi-ai": "1.5.2",
+    "@types/node": "^22.19.19",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.12"
+  },
+  "scripts": {
+    "test": "vitest --run",
+    "typecheck": "tsc --noEmit"
+  }
+}
