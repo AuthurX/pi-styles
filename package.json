@@ -1,6 +1,6 @@
 {
   "name": "pi-styles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pi 输出风格：兼容 Claude Code 存量风格 + 工具策略护栏 + 从历史会话蒸馏新风格",
   "type": "module",
   "license": "MIT",
